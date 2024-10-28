@@ -41,6 +41,7 @@ body {
   .sean {
     display: flex;
     background-color: #04AA6D;
+    font-weight: bolder;
   }
   
   .topnav a {
