@@ -13,6 +13,11 @@ body {
     padding-top: 40px;
 }
 
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -28,14 +33,21 @@ body {
     display: flex;
     position: fixed;
     display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sean {
+    display: flex;
+    background-color: #04AA6D;
   }
   
   .topnav a {
-    /* float: left; */
+    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
   }
   
@@ -44,7 +56,7 @@ body {
     color: black;
   }
   
-  .topnav a.active {
+  /* .topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
+  } */
